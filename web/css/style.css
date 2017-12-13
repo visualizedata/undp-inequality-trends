@@ -143,7 +143,7 @@ p {
     padding-left: 0 !important;
 }
 
-h3 {
+h3, h4 {
     font-family: "neue-display-ultra" !important;
     letter-spacing: 0.05em;
     line-height: 1em;
@@ -307,6 +307,10 @@ button:hover,
     transition: all .3s ease-in-out;
 }
 
+.glyphicon {
+    padding-bottom: 10px;
+}
+
 #cover {
     position: fixed;
     z-index: 1;
@@ -314,4 +318,8 @@ button:hover,
     height: 100%;
     background-color: rgb(251, 189, 137);	
     visibility: hidden;
+}
+
+summary {
+    position: inherit;
 }
