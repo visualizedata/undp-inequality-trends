@@ -350,4 +350,7 @@ summary {
     .container {
         padding: 0 !important;
     }
+    .tooltip {
+        display: none;
+    }
 }
