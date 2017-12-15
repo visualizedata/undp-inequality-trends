@@ -323,3 +323,27 @@ button:hover,
 summary {
     position: inherit;
 }
+
+@media (max-width: 480px) {
+    h1 a, .sitename {
+        font-size: 14pt !important;
+        line-height: 16pt !important;
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+    }
+    .sitename {
+        padding-top: 5px;
+        padding-bottom: 3px;
+    }
+    .subtitle {
+        margin-left: 0 !important;
+        font-size: inherit;
+    }
+    #inner-menu-stripe {
+        width: 100% !important;
+        position: inherit;
+    }
+    .container {
+        padding: 0 !important;
+    }
+}
