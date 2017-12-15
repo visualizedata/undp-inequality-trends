@@ -324,6 +324,10 @@ summary {
     position: inherit;
 }
 
+#about {
+    padding: 15px;
+}
+
 @media (max-width: 480px) {
     h1 a, .sitename {
         font-size: 14pt !important;
